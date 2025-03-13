@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    #center{
+        height: 100vh;
+        width: 100%;
+    }
+
+#left{
+    height: 100vh;
+    width: 25%;
+    float: left;
+    background-color: cadetblue;
+}
+
+#right{
+    height: 100vh;
+    width: 75%;
+    float: left;
+}
+iframe{
+    height: 100vh;
+    width: 100%;
+    /* float: right; */
+}
+
+
+
+</style>
+
+</head>
+<body>
+    
+    <div id="center">
+        <div id="left">
+            <ul>
+                <li><a href="form.html" target="form">form</a></li>
+                <li><a href="table.html" target="form">table</a></li>
+            </ul>
+        </div>
+
+        <div id="right">
+            <iframe src="form.html" name="form" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+</html>
